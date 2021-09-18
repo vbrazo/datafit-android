@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_goal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E34"
+    tools:context=".activities.GoalActivity">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="Sobre você"
+        android:textColor="#BDBFC2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chevron_left" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="56dp"
+        android:background="#303641"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="97dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/whats_your_level"
+        android:textAllCaps="false"
+        android:textColor="#F9F9F9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_shape_yellow"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:hint="@string/avancar"
+        android:text="@string/avancar"
+        android:textAllCaps="false"
+        android:textColor="#2A2E34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/btnBegineer"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/button_shape"
+            android:buttonTint="#585D66"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:padding="12dp"
+            android:text="Treino no máximo 2 vezes por semana"
+            android:textColor="#F9F9F9"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/btnIntermediate"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="Treino 3 ou 4 vezes por semana"
+            android:paddingLeft="12dp"
+
+            android:textColor="#F9F9F9"
+            android:buttonTint="#585D66"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/btnAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="Treino forte ou mais de 5 vezes por semana"
+            android:paddingLeft="12dp"
+            android:buttonTint="#585D66"
+            android:textColor="#F9F9F9"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_frequency"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E34"
+    tools:context=".activities.FrequencyActivity">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="Dias de descanso"
+        android:textColor="#BDBFC2"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chevron_left" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="56dp"
+        android:background="#303641"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="97dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/frequency_title"
+        android:textColor="#C9CDD0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/frequency_description"
+        android:textColor="#80848B"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_shape_yellow"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:hint="@string/avancar"
+        android:text="@string/avancar"
+        android:textAllCaps="false"
+        android:textColor="#2A2E34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnThursday" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="@string/frequency_rest"
+        android:textColor="#C9CDD0"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <RadioButton
+        android:id="@+id/btnTuesday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/tuesday"
+        android:textColor="#BDBFC2"
+        android:buttonTint="#585D66"
+        app:layout_constraintEnd_toStartOf="@+id/btnWednesday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnMonday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnSunday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/sunday"
+        android:textColor="#BDBFC2"
+        android:textColorHint="#80848B"
+        android:buttonTint="#585D66"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnSaturday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnSaturday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/saturday"
+        android:textColor="#BDBFC2"
+        android:buttonTint="#585D66"
+        app:layout_constraintEnd_toStartOf="@+id/btnSunday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFriday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnFriday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/friday"
+        android:textColor="#BDBFC2"
+        android:buttonTint="#585D66"
+        app:layout_constraintEnd_toStartOf="@+id/btnSaturday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnThursday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnMonday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/monday"
+        android:textColor="#BDBFC2"
+        android:buttonTint="#585D66"
+        app:layout_constraintEnd_toStartOf="@+id/btnTuesday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnThursday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:buttonTint="#585D66"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/thursday"
+        android:textColor="#BDBFC2"
+        app:layout_constraintEnd_toStartOf="@+id/btnFriday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnWednesday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioButton
+        android:id="@+id/btnWednesday"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="35dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:buttonTint="#585D66"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="@string/wednesday"
+        android:textColor="#BDBFC2"
+        app:layout_constraintEnd_toStartOf="@+id/btnThursday"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnTuesday"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="S"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMonday"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="T"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTuesday"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="Q"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnWednesday"
+        app:layout_constraintEnd_toStartOf="@+id/textView42"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="Q"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnThursday"
+        app:layout_constraintEnd_toStartOf="@+id/textView43"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="S"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFriday"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="S"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaturday"
+        app:layout_constraintEnd_toStartOf="@+id/textView45"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:text="D"
+        android:textColor="#E5E6E7"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSunday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView44" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

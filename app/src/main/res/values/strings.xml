@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">DataFit</string>
+    <string name="e_mail">Seu e-mail</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="senha">Sua senha</string>
+    <string name="logo">LOGO</string>
+    <string name="entrar">Entrar</string>
+    <string name="login_com_o_google">Login com o Google</string>
+    <string name="quero_me_cadastrar">Quero me cadastrar</string>
+    <string name="ja_tenho_cadastro">JA TENHO CADASTRO</string>
+    <string name="ja_tem_conta">Já tem uma conta?</string>
+    <string name="faca_login"><u>Faça login</u></string>
+    <string name="seu_peso">Peso (Kg)</string>
+    <string name="sua_altura">Altura (cm)</string>
+    <string name="sua_idade">Idade</string>
+    <string name="seu_sexo">Sexo</string>
+    <string name="qual_o_seu_objetivo">Qual é o seu objetivo</string>
+    <string name="whats_your_level">Você já fez exercícios físicos?</string>
+    <string name="avancar">Avançar</string>
+    <string name="esqueci_minha_senha"><u>Esqueceu a senha?</u></string>
+    <string name="homeLabel">Home</string>
+    <string name="advanced">Avançado</string>
+    <string name="intermediate">Intermediário</string>
+    <string name="beginner">Iniciante</string>
+    <string name="frequency_title">20 minutos por dia</string>
+    <string name="frequency_description">Para criar hábito, vamos focar em treinos com 20-45 minutos em média, mas precisamos que você descanse no máximo por 2 dias por semana. Vamos?</string>
+    <string name="frequency_rest">Escolha até 2 dias para descanso:</string>
+    <string name="monday">S</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">Q</string>
+    <string name="thursday">Q</string>
+    <string name="friday">S</string>
+    <string name="saturday">S</string>
+    <string name="sunday">D</string>
+    <string name="ainda_n_o_tem_conta_cadastre_se">Ainda não tem conta?</string>
+    <string name="cadastrar_com_google">Cadastrar com Google</string>
+    <string name="welcome_text_1">Já tenho uma conta? Faça login</string>
+    <string name="diamant_new_victory">NOVA CONQUISTA</string>
+    <string name="diamant_earned_title">+2 diamantes</string>
+    <string name="diamant_earned_description">Você ganhou 2 diamantes por completar seu primeiro acesso da DataFit. Complete treinos para ganhar mais e usar na nossa lojinha.</string>
+    <string name="level_achieved_title">Nível 1</string>
+    <string name="level_achieved_description">Você atingiu o nível 1. Complete as missões e mantenha a consistência para passar de níveis.</string>
+    <string name="timeLeft">00:00:%1$d</string>
+    <string name="timeLeftWithZero">00:00:0%1$d</string>
+    <string name="restTime">%1$d</string>
+    <string name="restTime1">00:%1$d</string>
+    <string name="respire_e_descanse">Respire e descanse</string>
+    <string name="missao_1">Missão 1</string>
+    <string name="esse_treino_trabalha_abdome">Esse treino trabalha abdome</string>
+    <string name="duration_22_min">22 min</string>
+    <string name="nome_do_exercicio">Nome do exercício</string>
+    <string name="numero_de_repeticoes">Número de repetições</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="finalizei">Finalizei</string>
+    <string name="abdominal_supra">Abdominal supra</string>
+    <string name="repetitions">3x de 30 repetições</string>
+    <string name="comecar_agora">Começar agora</string>
+    <string name="comecar_o_treino">Começar o treino</string>
+    <string name="nova_conquista">NOVA CONQUISTA</string>
+    <string name="missao_finalizada">Missão finalizada</string>
+    <string name="cadastre_se_login"><u>Cadastre-se.</u></string>
+    <string name="missao_finalizada_descricao">Parabéns, você concluiu o treino de hoje!</string>
+    <string name="terms_of_service">DataFit TERMS OF SERVICE
+
+EFFECTIVE DATE: MARCH 14, 2020
+
+DataFit Inc. d/b/a DataFit (“DataFit,” “we,” “our,” or “us”) is a provider of fitness technology software and services that blend computer vision, machine learning, and human expertise to deliver a superior training experience. These terms and conditions are a legally binding agreement between you and DataFit regarding your use of the product. By accessing or using the app or using the DataFit Products, you acknowledge that you have read, understood and agree to be bound by these terms and conditions, including any additional guidelines, the DataFit Privacy Policy.
+
+IF YOU OBJECT TO ANYTHING IN THIS AGREEMENT OR THE DataFit PRIVACY POLICY, YOU CANNOT USE THE WEBSITE OR THE DATAFIT PRODUCTS AND YOU SHOULD IMMEDIATELY TERMINATE YOUR USE THEREOF.
+
+Eligibility
+
+You must be at least eighteen (18) years of age or the age of majority in the place of your residence to register as a user or use the DataFit Products. By using the DataFit app, you represent and warrant that you have the right, authority and capacity to enter into this Agreement and you agree to abide by this Agreement.
+
+Privacy Policy
+
+Your privacy is important to us. The DataFit Privacy Policy (“Privacy Policy”) is hereby incorporated into this Agreement by reference. Please read the Privacy Policy carefully for details relating to the collection, use, and disclosure of your personal information.
+
+Individual Features and DataFit Products
+
+When using the Website and/or the DataFit app, you may be subject to any additional posted guidelines or rules applicable to specific services and features, which may be posted from time to time on the Website (the “Guidelines”). All such Guidelines are hereby incorporated by reference in this Agreement. To the extent that any terms of these terms and conditions conflict with any Guidelines, these terms and conditions shall prevail.
+
+Modification of Terms
+
+DataFit reserves the right, in its sole discretion, to change, modify, add, or remove portions of this Agreement at any time and for any reason without notice to you and by simply updating this page. This Agreement was last updated and is effective as of the “Updated” date indicated below. You should visit this page from time to time to review the current Agreement because it is binding on you and your continued use of or access to the DataFit products after the posting of changes will be construed as your acceptance of the revised Agreement. For any material changes to this Agreement, such amended terms will automatically be effective 30 days after they are initially posted on the Website. We notify users in case changes happen.
+
+Registration
+
+When you register for an account on the Website, you become a User. DataFit provides a solution that receives a CrossFit video exercise and sends an output containing feedback regarding the exercise performance. Feedback can contain both geometric/heuristic approach, as well as a machine learning approach that can specify whether specific mistakes in exercises are performed and what athletes could do to improve them.
+
+Account Security
+
+You are responsible for maintaining the confidentiality of the username and password that you use to register/login for. You agree to (a) immediately notify DataFit of any unauthorized use of your username or password or any other breach of security, and (b) ensure that you logout from your account each time you exit your account. DataFit will not be liable for any loss or damage arising from your failure to comply with this provision.
+
+Content on the Website
+
+- Proprietary Rights: DataFit, and its licensors, own and retain all proprietary rights in all DataFit products. The Website and/or the DataFit Products contains content, visual interfaces, interactive features, information, graphics, design, compilation, computer code, products, software, services and other elements of the DataFit product (the “DataFit Resources”) that are protected by copyright, trade dress, patent, and trademark laws, international conventions, and other relevant intellectual property and proprietary rights, and applicable laws. Except for that information which is in the public domain or for which you have been given express written permission, you may not copy, modify, publish, transmit, distribute, license, perform, display, or sell any DataFit Resources. DataFit retains all rights not expressly granted in this Agreement. You shall not acquire any right, title or interest to the Website, the DataFit Products or DataFit Materials, except for the limited rights set forth in this Agreement.
+
+- Health Information: The information provided through the Website and/or the DataFit Products may contain general health information. THIS WEBSITE AND/OR DataFit PRODUCTS DOES NOT PROVIDE MEDICAL DIAGNOSIS FOR ANY INDIVIDUAL AND MUST NOT BE USED AS A SUBSTITUTE FOR PROFESSIONAL MEDICAL ADVICE, DIAGNOSIS, TREATMENT OR CARE. All specific medical questions you may have about your specific medical condition, treatment, care, or diagnosis must be presented to your health care professional. YOU SHOULD NEVER DISREGARD MEDICAL ADVICE OR DELAY SEEKING PROFESSIONAL ADVICE BECAUSE OF ANY INFORMATION CONTAINED IN OR RELATED TO THE WEBSITE AND/OR THE DataFit Products.
+
+Modifications to the Website and/or the DataFit Products
+
+DataFit reserves the right at any time to modify or discontinue, temporarily or permanently, the Website and/or the DataFit Products (or any part thereof) with or without notice. You agree that DataFit shall not be liable to you or to any third party for any modification, suspension or discontinuance of the Website and/or the DataFit Products.
+
+Copyright Policy
+
+- Infringement Notice: It is DataFit’s policy to respond to clear notices of alleged copyright infringement. If you are a copyright owner or an agent thereof and you believe that any content hosted on the Website and/or the DataFit Products infringes your copyrights, please contact us at the address provided below.
+
+- Repeat Infringer: Please note that DataFit will promptly terminate without notice any User’s access to the Website and the DataFit Products if that User is determined by DataFit to be a “repeat infringer.” A “repeat infringer” is a User who has been notified by DataFit of infringing activity violations more than twice and/or who has had their User Content or any other User-submitted content removed from the Website and/or the DataFit Products more than twice.
+
+Instructions; Restrictions; Disclaimers
+
+- Please carefully read any and all instructions that come with the DataFit Products, including instructions that may be available online on our website or by contacting DataFit support at hello@datafit.app.
+
+- No Warranties: “As Is,” “As Available,” and “With All Faults”. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, DataFit, AND ITS AFFILIATES, PARTNERS, AND SUPPLIERS DISCLAIM ALL WARRANTIES, STATUTORY, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. YOU EXPRESSLY AGREE THAT THE USE OF THE WEBSITE AND/OR THE DATAFIT PRODUCTS IS AT YOUR SOLE RISK AND THAT ANY ADVICE THAT MAY BE POSTED ON THE WEBSITE AND/OR THE DATAFIT PRODUCTS IS FOR INFORMATIONAL AND ENTERTAINMENT PURPOSES ONLY AND WILL NOT CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN. THE WEBSITE AND/OR THE DATFIT PRODUCTS, USER CONTENT AND ANY THIRD-PARTY MEDIA, CONTENT, SOFTWARE, SERVICES OR APPLICATIONS MADE AVAILABLE IN CONJUNCTION WITH OR THROUGH THE WEBSITE AND/OR THE DATAFIT PRODUCTS ARE PROVIDED ON AN “AS IS”, “AS AVAILABLE”, “WITH ALL FAULTS” BASIS AND WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND EITHER EXPRESS OR IMPLIED.
+
+- Operation and Content: DATAFIT IS NOT RESPONSIBLE FOR ANY INCORRECT OR INACCURATE CONTENT POSTED ON BY ANY OF THE EQUIPMENTS OR PROGRAMMING ASSOCIATED WITH OR UTILIZED IN THE WEBSITE AND/OR THE DATAFIT PRODUCTS. DATAFIT ASSUMES NO RESPONSIBILITY FOR ANY ERROR, OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMMUNICATIONS LINE FAILURE, THEFT OR DESTRUCTION OR UNAUTHORIZED ACCESS TO, OR ALTERATION OF, USER OR MEMBER COMMUNICATIONS. DATAFIT IS NOT RESPONSIBLE FOR ANY PROBLEMS OR TECHNICAL MALFUNCTION OF ANY TELEPHONE NETWORK OR LINES, COMPUTER ONLINE SYSTEMS, SERVERS OR PROVIDERS, COMPUTER EQUIPMENT, SOFTWARE, FAILURE OF EMAIL OR PLAYERS ON ACCOUNT OF TECHNICAL PROBLEMS OR TRAFFIC CONGESTION ON THE INTERNET OR AT ANY WEBSITE OR COMBINATION THEREOF, INCLUDING INJURY OR DAMAGE TO USERS OR TO ANY OTHER PERSON’S COMPUTER RELATED TO OR RESULTING FROM PARTICIPATING IN CONNECTION WITH THE WEB AND/OR IN CONNECTION WITH THE WEBSITE AND/OR THE DATAFIT PRODUCTS.
+
+- User Conduct: DATAFIT IS NOT RESPONSIBLE FOR THE CONDUCT, WHETHER ONLINE OR OFFLINE, OF ANY USER. UNDER NO CIRCUMSTANCES WILL DataFit OR ANY OF ITS AFFILIATES, ADVERTISERS, PROMOTERS OR DISTRIBUTION PARTNERS BE RESPONSIBLE FOR ANY LOSS OR DAMAGE, INCLUDING PERSONAL INJURY OR DEATH, RESULTING FROM ANYONE’S USE OF THE WEBSITE AND/OR THE DATAFIT PRODUCTS, ANY CONTENT POSTED ON THE WEBSITE AND/OR THE DATAFIT PRODUCTS OR TRANSMITTED TO USERS, OR ANY INTERACTIONS BETWEEN USERS, WHETHER ONLINE OR OFFLINE. DATAFIT IS NOT RESPONSIBLE FOR ANY LOSS OR DAMAGE, INCLUDING PERSONAL INJURY OR DEATH, RESULTING FROM ANY EVENTS OR ACTIONS OCCURING AT VENUES OR ANY INTERACTION BETWEEN A USER AND ANY THIRD PARTY, INCLUDING WITHOUT LIMITATION EMPLOYEES OF A VENUE OR OTHER PATRONS OF A VENUE.
+
+Release of Liability for Injury or Death; Limitation on Liability; Damages
+
+- Release of Liability for Injury or Death: YOUR USAGE OF THE DATAFIT FEEDBACK THROUGH THE MOBILE APPS IS AT YOUR OWN RISK. Exercise programs of any kind represent an inherent danger to participants. DATAFIT IS NOT LIABLE FOR ANY PERSONAL INJURY OR DEATH THAT RESULTS FROM USE OF THE WEBSITE AND/OR THE DATAFIT PRODUCTS. YOU RELEASE DATAFIT FROM ALL LIABILITY FOR INJURY OR DEATH THAT RESULTS FROM YOUR USAGE OF THE DATAFIT FEEDBACK THROUGH THE MOBILE APP OR USE OF THE WEBSITE AND/OR THE DATAFIT PRODUCTS. Members should consult a physician before beginning use of the DataFit Products. IN CASES WHERE APPLICABLE LAW DOES NOT ALLOW THE ABOVE RELEASE OF LIABILITY, DATAFIT LIABILITY WILL BE LIMITED TO THE EXTENT PERMITTED BY APPLICABLE LAWS.
+
+- Limitation of Liability: Except in jurisdictions where such provisions are restricted, in no event, and under no legal theory, including without limitation negligence, will DataFit or its affiliates, contractors, employees, agents or third party partners or suppliers be liable to you or any third person for any indirect, consequential, exemplary, incidental, special or punitive damages, including without limitation lost profits, data or use or cost of cover, even if DataFit has been advised of the possibility of such damages. In cases where applicable law does not allow the above limitation of liability, DataFit’s liability will be limited to the extent permitted by applicable laws.
+
+- Limitation of Damages: In no event shall DataFit or its affiliates, contractors, employees, agents, or third party partners, licensors or suppliers’ total liability to you for any cause whatsoever (whether in contract, tort (including negligence), warranty, or otherwise), and regardless of the form of the action, exceed the greater of: (i) one hundred Canadian dollars (CAN$ 100) to the action giving rise to the liability.
+
+- Indemnity by You: You agree to indemnify and hold DataFit, its parent, subsidiaries, affiliates, officers, agents, licensors, and other partners and employees, harmless from any loss, liability, claim, damages, obligations, or demand, including attorney’s fees, made by any third party due to or arising out of (i) your use of the Website and/or the DataFit Products, (ii) your violation or breach of this Agreement, (iii) your User Content, or (iv) any breach of your representations and warranties set forth above. DataFit reserves the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us and you agree to cooperate with our defense of these claims. You agree not to settle any matter without the prior written consent of DataFit. DataFit will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it.
+
+Miscellaneous
+
+- Notice: DataFit may provide you with notices, by email or postings on the Website. Notice will be deemed given 24 hours after the email is sent, unless DataFit is notified that the email address is invalid.
+
+- No Third Party Beneficiaries: You agree that, except as otherwise expressly provided in this Agreement, there shall be no third party beneficiaries to this Agreement.
+
+- Jurisdiction and Choice of Law: This Website and the DataFit Products are controlled and operated by us and this Agreement, this Website, the DataFit Products and any use of the Website or the DataFit Products shall be governed by the laws of the Province of British Columbia and the laws of Canada applicable therein without reference to principles of conflict of laws. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. You hereby irrevocably consent to the exclusive jurisdiction and venue of the courts in the district of Vancouver, Province of British Columbia and irrevocably agree that all disputes shall be heard in such courts. You agree that a final judgment in any such action or proceeding shall be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law.
+
+- Waiver: A provision of this Agreement may be waived only by a written instrument executed by the party entitled to the benefit of such provision. The failure of DataFit to exercise or enforce any right or provision of this Agreement will not constitute a waiver of such right or provision.
+
+- Survival: Sections "Modification of Terms", "Account Security", "Copyright Policy", "Disclaimers", "Release of Liability for Injury or Death; Limitation on Liability; Damages" and "Miscellaneous" will survive any termination of this Agreement. Subject to the foregoing, all terms that by their nature may survive termination of this Agreement shall be deemed to survive such termination.
+
+- Entire Agreement: This is the entire agreement between you and DataFit relating to the subject matter herein and supersedes all previous communications, representations, understandings and agreements, either oral or written, between the parties with respect to said subject matter. The Agreement shall not be modified except in writing, signed by both parties, or by a change to the Agreement made by DataFit.
+
+- Severability: If any provision of this Agreement shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from this Agreement and shall not affect the validity and enforceability of any remaining provisions.
+
+- Assignment: The Agreement, and any rights and licenses granted hereunder, may not be transferred or assigned by you, but may be assigned by DataFit without restriction. Any assignment attempted to be made in violation of this Agreement shall be void.
+
+- Headings: The heading references herein are for convenience purposes only, do not constitute a part of this Agreement, and shall not be deemed to limit or affect any of the provisions hereof.
+
+- Claims: YOU AND DataFit AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE WEBSITE AND/OR THE DataFit Products MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
+
+Disclosure
+
+The Website and the DataFit Products are offered by DataFit Inc., located at: Burnaby Street, Vancouver, British Columbia, Canada, V6E 1P3. Email: hello@datafit.app.
+
+    </string>
+    <string name="privacy_policy">DataFit PRIVACY POLICY
+
+EFFECTIVE DATE: MARCH 09, 2020
+
+DataFit Inc. d/b/a DataFit (“DataFit,” “we,” “our,” or “us”) is a provider of fitness technology software and services that blend computer vision, machine learning, and human expertise to deliver a superior training experience. We recognize that your privacy is important, and that your choice to share information with us is a critical part of how we can try to improve your overall fitness. Transparency is vital to protecting people’s privacy. We’ve developed this privacy policy to explain our technologies and to describe how and why we collect, use, and share your information both online and through our devices. This privacy policy explains how we collect, use, and share your information, and some of the choices you may have. This privacy policy applies to our collection of personal information through our websites and mobile applications, including DataFit.app (our “Sites”), through your use of our app, and from your interactions directly with us (collectively, our “Services”).
+
+Please note that this privacy policy does not cover or apply to our processing of information about employees, contractors, trainers or other business partners. We may provide additional privacy policies to you at the time we collect your information, which will govern how we process the information you provide at that time.
+
+BY PROVIDING US WITH YOUR PERSONAL INFORMATION OR OTHERWISE USING OUR SERVICES, YOU AGREE TO THE TERMS OF THIS PRIVACY NOTICE AND OUR TERMS OF SERVICE.
+
+1. INFORMATION WE COLLECT AND USE
+
+When we use the term “personal information,” we mean any information that can be used to identify you, directly or indirectly, as an individual person. We collect your information from a variety of sources:
+
+Information You Provide to Us.
+
+We collect and use personal information you provide to use in the following ways:
+
+- Communications
+
+If you communicate with us through any paper or electronic form, we collect your contact information, such as your name, address, email address and phone number, the content of the communication and the metadata associated with the communication. We use this information to investigate and respond to your inquiries and to communicate with you, including through the website or by email, mail, phone, text message, push notification, chat or any other paper or electronic form.
+
+- Newsletters
+
+If you sign up to receive news or alerts from us or register for an account, we collect your contact information, applicable interests and communication preferences in order to send you regular updates about the Services. We use this information to manage our communications with you and send you information about products and services we think may be of interest to you. If you wish to stop receiving email messages from us, please see the “Online Privacy Choices" section below.
+
+- Registering
+
+If you register for an account or subscribe to our Service, we will collect your contact, including your name, age, email address, username and password, and basic information about fitness lifestyle and goals.
+
+- Events, Surveys, Contests or Sweepstakes
+
+If you fill out any forms relating to DataFit events, surveys, contests or sweepstakes, we collect your contact and demographic information and any other information requested on the form. We use this information to fulfill the purpose of the form and facilitate the event, contest, survey, contest or sweepstakes, and to inform you about future programs that may be of interest to you. DataFit User Support If you contact our customer support or file a support claim with us, we collect information about your account, your device, information relating to your user support requests and any other information you choose to provide. We use this information to administer your account and to evaluate and respond to your request.
+
+- Information from Third Party Sources
+
+We may receive personal information about you from our business partners and service providers and combine this information with other information we collect from or about you. The third parties may include the Apple App Store or Google Play App Store, social media sites such as Facebook where you have interacted with us or made your profile public via your privacy settings, website operators, marketing partners, shipping providers, job application platforms, references, background check providers and recruiters. The information may include contact information, demographic information, interests, information about social media profiles, educational and professional history, background checks and performance reviews. We use this information to administer and facilitate our Services, our marketing activities, to provide you with information about our business and Services, and for the discovery and evaluation of job candidates.
+
+- Information we Collect Automatically
+
+We use various technologies to collect information about the device or browser you use to navigate our Sites, or from your use of our Services, including:
+
+- Workout Data
+
+When you record a video exercise and send us, our systems automatically collect information about your workout history, such as your total number of exercises taken, the dates you did the exercises, fitness performance history. Our 3D computer vision technology also senses your body movements and kinetics, so that every rep is counted and so you can get feedback on your form in real-time. Additionally, DataFit equipment and Sites may make use of your sensor array, which – at your direction – enable us to give you real-time feedback. We use this information to help you track your progress, to enable and facilitate our services.
+
+- Web Logs and Usage Data
+
+As is true of many websites, email communications and online services, we gather certain information automatically and store it in log files. This information may include IP addresses, browser type, internet service provider, referring/exit pages, operating system, date/time stamp and/or clickstream data. We use this data to analyze trends on our Sites, manage and administer the content, for security and availability of the Services, improve the performance of the Services, and for fraud protection and to protect our rights and the rights and safety of individuals. Additionally, we may collect a record of the workouts and programs you have accessed on the Services, including date, time, duration of the exercise and the duration of your participation, which we use for our own internal analytics and to recommend other content you may find interesting.
+
+- Cookies and Other Data Collection Technologies
+
+We and our service providers use cookies, scripts and similar technologies to manage the Sites and to collect information about you and your use of our Sites. These technologies help us to recognize you, customize or personalize your experience, advertise products or services to you and analyze the use of our Sites to make them more useful to you. These technologies may also allow us to aggregate demographic and statistical data and provide this information to our service providers to facilitate their provision of services. Most Internet browsers allow you to remove or manage cookie functions and adjust your privacy and security preferences. For information on how to do this, access the “help” menu on your Internet browser, or access how to control cookies. Please note, however, that disabling our cookies may result in your inability to take full advantage of all of the features of our Services.
+
+- Location Information
+
+We may collect location-based information including your Internet protocol (IP) address, GPS location, longitude/latitude, city, county, zip code and region, and your smart device’s proximity to location beacons. We may use this type of information to enhance your user experience (such as using location information to provide you with content tailored to your region), to better understand your interaction with our Services, or to enable you to track your outdoor fitness activities. Unless you provide us with your consent to do otherwise, this information will only be used by us and our third-party service providers to provide you with the Services you request or in an aggregated and anonymized format that does not identify you. If you no longer wish to have this location information collected and used by us, you may opt-out by disabling the location and Bluetooth features in the operating system of your smart device or contact us using the information below for additional support.
+
+- Google Analytics
+
+We use “Google Analytics” to collect information about your use of the Services. Google Analytics collects information such as how often users access the Services, what pages they access when they do so and what other sites they used prior to using the Services. We use the information we get from Google Analytics only to improve the Services. To learn more about the use of data collection technologies by Google for analytics and to exercise choice regarding those technologies, please visit the Google Analytics Opt-Out browser add-on page.
+
+- Other Uses of Personal Information
+
+In addition to the uses described above, we may collect and use personal information for the following purposes:
+
+To develop, maintain, improve and operate the Services.
+
+To personalize your user experience.
+
+To communicate with you to provide technical or administrative support.
+
+To conduct, manage and grow our organization.
+
+To analyze, research and investigate the use of our Services.
+
+To prevent, investigate and provide notice of fraud, unlawful or criminal activity, unauthorized access to or use of personal information, the Services or our data systems, and to meet legal, regulatory, judicial and institutional policy obligations.
+
+To protect the health and safety of our users and the general public.
+
+To investigate and resolve disputes and security issues and to enforce our Terms of Service.
+
+For any other lawful, legitimate business purpose.
+
+2. HOW WE SHARE AND DISCLOSE PERSONAL INFORMATION
+
+We may share your personal information in the following ways:
+
+- Service Providers
+
+We share personal information with third-party service providers who perform services on our behalf, such as job application platforms, background check providers, recruiters, event coordinators, market research providers, advertising partners and technology providers (including technology support providers, email communications providers, analytics providers, data storage providers and web and video hosting providers and developers) and fitness instructors.
+
+- Business Partners
+
+At your request or for purposes otherwise consistent with this privacy policy, we may disclose personal information to our third-party business partners to promote their products or services. Other Users Information included in your user profile, including your workout history and achievements earned through the Services, and if you have provided it, your profile photo, location, and age, may be available to other users by default, which means that other registered users will also be able to view this information, and contact or follow you through the Services. You have the option to set your profile to “Private”.
+
+- Regulatory or Legal Requirements, Safety and Terms Enforcement
+
+We may disclose personal information to governmental regulatory authorities as required by law, including for tax or accounting purposes, in response to their requests for such information or to assist in investigations. We may also disclose personal information to third parties in connection with claims, disputes or litigation, when otherwise required by law, or if we determine its disclosure is necessary to protect the health and safety of you or any other person, to protect against fraud or credit risk, or to enforce our legal rights or contractual commitments that you have made.
+
+- Business Transfers
+
+We may disclose personal information as part of an organizational business transaction, such as a merger, acquisition, joint venture, financing, or sale of organizational assets and may transfer personal information to a third party as one of the business assets in such a transaction. We may also disclose personal information in the event of insolvency, bankruptcy, or receivership. At Your Request We may disclose your information publicly or with another third party with your prior authorization.
+
+3. ONLINE PRIVACY CHOICES
+
+Information You Provide to Us.
+
+We support the self-regulatory principles of the Digital Advertising Alliance (“DAA”). We work with advertisers, advertising networks, advertising servers, and analytics companies (“Ad Partners”) that use data collection technologies to understand how our Services are being used and to analyze your location and browsing history in order to deliver advertising relevant to your interests, as well as to provide advertising-related insights such as reporting, attribution, analytics, and market research. These advertisements may appear on our Services or other websites or services, including through social media networks. These Ad Partners may be able to associate devices across third party websites or services over time and link various devices used by the same individual.For more information about how Ad Partners use the information collected by these technologies and your options for restricting cookies placed by some of these Ad Partners, please visit the DAA’s opt-out page. The DAA’s opt-outs are device- and browser-specific and may not work on all devices. If you choose to opt-out through the DAA’s tools it does not mean you will cease to see advertising. Rather, the ads you see will be based on the website you are visiting and not your interests.You may also be able to limit interest-based advertising through the settings menu on your mobile device by selecting “limit ad tracking” (iOS) or “opt-out of interest-based ads” (Android). You may also be able to opt-out of some — but not all — interest-based advertising served by mobile ad networks by visiting app choices and downloading the mobile AppChoices app.
+
+Privacy Preferences
+
+You have some choices regarding how we use your personal information, including the following:
+
+- Access to Your Mobile Device Information
+
+You may control the Site’s access to your mobile device information through your “Settings” app on your device. For instance, you can withdraw permission for the Sites to access your geolocation, camera and to integrate with your other applications.
+
+- How to Control Your Email Communications Preferences
+
+You can stop receiving promotional email communications from us by clicking on the “unsubscribe link” provided in such communications or by emailing us at hello@DataFit.app. You may not opt-out of Service-related communications (e.g., account verification, transactional communications, changes/updates to features of the Service, technical and security notices).
+
+- How to Control Push Notifications
+
+You can stop receiving push notifications from us by changing your preferences in the iOS or Android notifications settings menu.
+
+- Modifying or Deleting Your Information
+
+If you have any questions about reviewing, modifying, or deleting your information, you can contact us directly at hello@DataFit.app. We may not be able to modify or delete your information in all circumstances.
+
+4. LINKS TO OTHER WEBSITES AND SERVICES
+
+The Services may contain links to third party websites or services, including those of our business partners and social media sites. Our Services may also include buttons and widgets hosted by other companies (for example, the Facebook, Instagram, Twitter, LinkedIn and YouTube “Share” buttons). Some of these features collect personal information or other information such as your IP address and information about the websites you have visited.This privacy policy does not apply to the practices of these or any other third parties. DataFit is not responsible for the privacy practices of any entity that it does not own or control. We encourage you to review the privacy policies and terms of those third parties to learn more about their privacy practices.
+
+5. HOW TO CONTACT US
+
+If you have any questions about this privacy policy or the Services, please contact us by email at hello@DataFit.app
+
+6. CHANGES TO OUR PRIVACY POLICY
+
+This privacy policy is subject to occasional revisions. We will notify you of the changes by posting the new privacy policy on the Sites and updating the effective date. We encourage you to check this page periodically to stay informed about how we are processing personal information.</string>
+</resources>

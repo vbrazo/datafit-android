@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActivityExerciseFinish"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2E34"
+    tools:context=".activities.ExerciseFinishActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="412dp"
+        android:background="@drawable/exercise_video_template"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFinishWorkout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="102dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#303641"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:text="Sair do treino"
+        android:textAllCaps="false"
+        android:textColor="#BDBFC2"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="#272C35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#272C35"
+            app:cardElevation="0dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewExercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:textAlignment="center"
+                    android:hint="@string/abdominal_supra"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textViewRepetitions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewExercise"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:hint="3 de 15 reps"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnFinish"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="197dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/textViewRepetitions"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:background="#FFD15B"
+                    android:fontFamily="@font/proxima_nova_bold"
+                    android:text="@string/finalizei"
+                    android:textAllCaps="false"
+                    android:textColor="#272C35" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_inner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@+id/btnFinish"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/proxima_nova_regular"
+                        android:hint="Tempo total de treino: "
+                        android:textColorHint="#585D66" />
+
+                    <Chronometer
+                        android:id="@+id/textViewCounter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/proxima_nova_regular"
+                        android:layout_marginTop="40dp"
+                        android:hint="00:00:00"
+                        android:textColor="#BDBFC2"
+                        android:textSize="14sp"
+                        android:layout_toRightOf="@+id/textView46" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

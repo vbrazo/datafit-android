@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668447921853",
+    "firebase_url": "https://datafit-7ea14.firebaseio.com",
+    "project_id": "datafit-7ea14",
+    "storage_bucket": "datafit-7ea14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668447921853:android:3b580807b830dbc65e49d4",
+        "android_client_info": {
+          "package_name": "app.datafit.alpha.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668447921853-sditcpm21t2f07dstff7627das3otqg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZryryplcIcY3ch2H9ay_x0TfZ4Zakbug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668447921853-sditcpm21t2f07dstff7627das3otqg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

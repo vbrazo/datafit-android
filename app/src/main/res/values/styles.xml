@@ -1,0 +1,68 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextView" />
+
+    <style name="TextView.Label">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">250dp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextView.LabelDescription">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginBottom">200dp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="spinnerTheme">
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:color">@android:color/white</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+        <item name="android:state_selected">@style/SpinnerDropDownItem</item>
+        <item name="android:background">#303641</item>
+        <item name="android:popupBackground">@null</item>
+    </style>
+
+    <style name="SpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:color">@android:color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:color">@android:color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/backgroundSplashScreen</item>
+        <item name="colorPrimaryDark">#303641</item>
+        <item name="colorAccent">@color/backgroundSplashScreen</item>
+        <item name="android:windowBackground">#303641</item>
+    </style>
+</resources>
