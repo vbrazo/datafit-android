@@ -7,6 +7,7 @@ DataFit Android app is a mobile application written in Kotlin and this project c
 - [DataFit Android app](#datafit-android-app)
   - [Screens](#screens)
     - [Welcome](#welcome)
+    - [Sign up](#sign-up)
   - [Overall architecture](#overall-architecture)
 
 # DataFit Android app
