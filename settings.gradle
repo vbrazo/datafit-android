@@ -1,2 +1,2 @@
-rootProject.name='datafit-android'
+rootProject.name='datafit-android-login'
 include ':app'
