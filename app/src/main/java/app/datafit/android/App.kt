@@ -64,7 +64,6 @@ class App : Application() {
         .apply()
     }
 
-    fun getEmail() = preferences.getString(EMAIL, "") ?: ""
     fun getToken() = preferences.getString(KEY_TOKEN, "") ?: ""
   }
 
