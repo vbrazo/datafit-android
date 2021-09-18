@@ -9,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import app.datafit.android.R
-import com.amplitude.api.Amplitude
 import com.google.android.material.card.MaterialCardView
 import com.synnapps.carouselview.CarouselView
 import com.synnapps.carouselview.ViewListener
@@ -21,8 +20,6 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
 
         this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-
-        Amplitude.getInstance().logEvent("Welcome");
 
         val carouselView = findViewById<CarouselView>(R.id.carouselView)
         carouselView.pageCount = sampleImages.size

@@ -8,7 +8,6 @@ import android.widget.Toast
 import app.datafit.android.R
 import app.datafit.android.api.RetrofitClient
 import app.datafit.android.models.ProfileResponse
-import com.amplitude.api.Amplitude
 import kotlinx.android.synthetic.main.activity_frequency.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -21,8 +20,6 @@ class FrequencyActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_frequency)
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out)
-
-        Amplitude.getInstance().logEvent("Sign up - Days of Rest");
 
         this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 

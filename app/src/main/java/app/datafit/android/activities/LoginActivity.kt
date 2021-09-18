@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.WindowManager
 import app.datafit.android.R
 import kotlinx.android.synthetic.main.activity_login.*
-import com.amplitude.api.Amplitude
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,8 +14,6 @@ class LoginActivity : AppCompatActivity() {
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out)
 
         this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-
-        Amplitude.getInstance().logEvent("Login");
 
         btnSignUpLink.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)

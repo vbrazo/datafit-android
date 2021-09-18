@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import app.datafit.android.R
 import app.datafit.android.api.RetrofitClient
 import app.datafit.android.models.ProfileResponse
-import com.amplitude.api.Amplitude
 import kotlinx.android.synthetic.main.activity_about_you.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -31,8 +30,6 @@ class AboutYouActivity : AppCompatActivity() {
 
         txtGoal.bringToFront()
         txtGender.bringToFront()
-
-        Amplitude.getInstance().logEvent("About You");
 
         val intent = Intent(this, GoalActivity::class.java)
 
