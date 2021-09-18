@@ -1,38 +1,32 @@
 # DataFit Android app
 
-DataFit Android app is a mobile application written in Kotlin.
+DataFit was a side project that I was involved in last year, and I have decided to open source it so that I can add to my portfolio a prove that I know how to build an Android app written in Kotlin.
+
+DataFit Android app is a mobile application written in Kotlin and this project contains the welcome views, sign up and sign in flows.
 
 - [DataFit Android app](#datafit-android-app)
-  - [Installation](#installation)
+  - [Screens](#screens)
+    - [Welcome](#welcome)
   - [Overall architecture](#overall-architecture)
 
 # DataFit Android app
 
-## Welcome, Sign up and Sign in flow
+## Screens
 
-- Welcome
+### Welcome
 
-<img src="./images/datafit-welcome.png" width=400 />
+<img src="./images/datafit-welcome.png" width=800 />
 
-- Login
+### Login
 
 <img src="./images/datafit-login.png" width=400 />
 
-- Sign up
+### Sign up
 
 <img src="./images/datafit-sign-up.png" width=400 />
-
-- Sign Up: Part 2
-
 <img src="./images/datafit-sign-up-2.png" width=400 />
-
-- Sign up: About You
-
-<img src="./images/datafit-about-you.png" width=400 />
-
-- Sign up: About You Final
-
-<img src="./images/datafit-sign-up-final.png" width=400 />
+<img src="./images/datafit-about-you.png" width=800 />
+<img src="./images/datafit-sign-up-final.png" width=800 />
 
 
 ## Overall architecture
