@@ -11,7 +11,6 @@ import app.datafit.android.App
 import app.datafit.android.R
 import app.datafit.android.api.RetrofitClient
 import app.datafit.android.models.SignUpResponse
-import com.amplitude.api.Amplitude
 import kotlinx.android.synthetic.main.activity_sign_up.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -27,8 +26,6 @@ class SignUpActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-
-        Amplitude.getInstance().logEvent("Sign Up");
 
         loginButtonEvent()
         imageViewBackEvent()
@@ -103,8 +100,6 @@ class SignUpActivity : AppCompatActivity() {
                                     btnNext.isEnabled = false
                                     val headers = response.headers()
                                     App.saveToken(headers["Authorization"]!!)
-
-                                    Amplitude.getInstance().userId = txtEmail.text.toString()
 
                                     startActivity(intent)
                                 }

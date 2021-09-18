@@ -9,7 +9,6 @@ import app.datafit.android.App
 import app.datafit.android.R
 import app.datafit.android.api.RetrofitClient
 import app.datafit.android.models.ProfileResponse
-import com.amplitude.api.Amplitude
 import kotlinx.android.synthetic.main.activity_goal.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -20,8 +19,6 @@ class GoalActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_goal)
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out)
-
-        Amplitude.getInstance().logEvent("Sign up - Level");
 
         val intent = Intent(this, FrequencyActivity::class.java)
 

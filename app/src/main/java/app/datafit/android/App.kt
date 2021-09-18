@@ -40,24 +40,8 @@ import android.content.Context
 private const val KEY_PREFERENCES = "DataFit"
 private const val KEY_TOKEN = "token"
 
-private const val DIAMONDS = "DIAMONDS"
 private const val EMAIL = "EMAIL"
-private const val EXERCISE_TRAINING_COUNT = "EXERCISE_TRAINING_COUNT"
-private const val EXERCISE_TRAINING_CURRENT_COUNT = "EXERCISE_TRAINING_CURRENT_COUNT"
-private const val EXERCISE_TRAINING_CURRENT_SERIES = "EXERCISE_TRAINING_CURRENT_SERIES"
-private const val EXERCISE_TRAINING_CURRENT = "EXERCISE_TRAINING_CURRENT"
-private const val EXERCISE_TRAINING_ID = "EXERCISE_TRAINING_ID"
-private const val EXERCISE_TRAINING_NAME = "EXERCISE_TRAINING_NAME"
-private const val EXERCISE_TRAINING_REPETITIONS = "EXERCISE_TRAINING_REPETITIONS"
-private const val EXERCISE_TRAINING_REST = "EXERCISE_TRAINING_REST"
-private const val EXERCISE_TRAINING_VIDEO_LINK_ID = "EXERCISE_TRAINING_VIDEO_LINK_ID"
 private const val LEVEL = "LEVEL"
-private const val THUNDERS = "THUNDERS"
-private const val TRAINING_DESCRIPTION = "TRAINING_DESCRIPTION"
-private const val TRAINING_DURATION = "TRAINING_DURATION"
-private const val TRAINING_ID = "TRAINING_ID"
-private const val TRAINING_NAME = "TRAINING_NAME"
-private const val TRAINING_COUNTER = "TRAINING_COUNTER"
 
 class App : Application() {
 
@@ -68,69 +52,9 @@ class App : Application() {
       instance.getSharedPreferences(KEY_PREFERENCES, Context.MODE_PRIVATE)
     }
 
-    fun saveEmail(email: String) {
-      preferences.edit()
-        .putString(EMAIL, email)
-        .apply()
-    }
-
     fun saveLevel(level: String) {
       preferences.edit()
         .putString(LEVEL, level)
-        .apply()
-    }
-
-    fun saveExerciseTrainingId(exerciseTrainingId: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_ID, exerciseTrainingId)
-        .apply()
-    }
-
-    fun saveExerciseTrainingCurrent(currentIndex: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_CURRENT, currentIndex)
-        .apply()
-    }
-
-    fun saveExerciseTrainingCount(count: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_COUNT, count)
-        .apply()
-    }
-
-    fun saveExerciseTrainingName(name: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_NAME, name)
-        .apply()
-    }
-
-    fun saveExerciseTrainingRepetitions(repetitions: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_REPETITIONS, repetitions)
-        .apply()
-    }
-
-    fun saveExerciseTrainingSeriesCurrent(count: String){
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_CURRENT_SERIES, count)
-        .apply()
-    }
-
-    fun saveExerciseTrainingSeriesCount(count: String){
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_CURRENT_COUNT, count)
-        .apply()
-    }
-
-    fun saveExerciseTrainingRest(count: String){
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_REST, count)
-        .apply()
-    }
-
-    fun saveExerciseTrainingVideoLinkId(videoLinkId: String) {
-      preferences.edit()
-        .putString(EXERCISE_TRAINING_VIDEO_LINK_ID, videoLinkId)
         .apply()
     }
 
@@ -140,67 +64,8 @@ class App : Application() {
         .apply()
     }
 
-    fun saveThunders(token: String) {
-      preferences.edit()
-        .putString(THUNDERS, token)
-        .apply()
-    }
-
-    fun saveDiamonds(token: String) {
-      preferences.edit()
-        .putString(DIAMONDS, token)
-        .apply()
-    }
-
-    fun saveTrainingId(trainingId: String) {
-      preferences.edit()
-        .putString(TRAINING_ID, trainingId)
-        .apply()
-    }
-
-    fun saveTrainingName(name: String){
-      preferences.edit()
-        .putString(TRAINING_NAME, name)
-        .apply()
-    }
-
-    fun saveTrainingCounter(counter: Long) {
-      preferences.edit()
-        .putString(TRAINING_COUNTER, counter.toString())
-        .apply()
-    }
-
-    fun saveTrainingDescription(name: String){
-      preferences.edit()
-        .putString(TRAINING_DESCRIPTION, name)
-        .apply()
-    }
-
-    fun saveTrainingDuration(name: String){
-      preferences.edit()
-        .putString(TRAINING_DURATION, name)
-        .apply()
-    }
-
-    fun getLevel() = preferences.getString(LEVEL, "") ?: ""
     fun getEmail() = preferences.getString(EMAIL, "") ?: ""
-    fun getDiamonds() = preferences.getString(DIAMONDS, "") ?: ""
-    fun getExerciseTrainingCount() = preferences.getString(EXERCISE_TRAINING_COUNT, "") ?: ""
-    fun getExerciseTrainingCurrent() = preferences.getString(EXERCISE_TRAINING_CURRENT, "") ?: ""
-    fun getExerciseTrainingId() = preferences.getString(EXERCISE_TRAINING_ID, "") ?: ""
-    fun getExerciseTrainingName() = preferences.getString(EXERCISE_TRAINING_NAME, "") ?: ""
-    fun getExerciseTrainingRepetitions() = preferences.getString(EXERCISE_TRAINING_REPETITIONS, "") ?: ""
-    fun getExerciseTrainingSeriesCount() = preferences.getString(EXERCISE_TRAINING_CURRENT_COUNT, "") ?: ""
-    fun getExerciseTrainingSeriesCurrent() = preferences.getString(EXERCISE_TRAINING_CURRENT_SERIES, "") ?: ""
-    fun getExerciseTrainingRest() = preferences.getString(EXERCISE_TRAINING_REST, "") ?: ""
-    fun getExerciseTrainingVideoLinkId() = preferences.getString(EXERCISE_TRAINING_VIDEO_LINK_ID, "") ?: ""
     fun getToken() = preferences.getString(KEY_TOKEN, "") ?: ""
-    fun getThunders() = preferences.getString(THUNDERS, "") ?: ""
-    fun getTrainingCounter() = preferences.getString(TRAINING_COUNTER, "") ?: ""
-    fun getTrainingId() = preferences.getString(TRAINING_ID, "") ?: ""
-    fun getTrainingName() = preferences.getString(TRAINING_NAME, "") ?: ""
-    fun getTrainingDescription() = preferences.getString(TRAINING_DESCRIPTION, "") ?: ""
-    fun getTrainingDuration() = preferences.getString(TRAINING_DURATION, "") ?: ""
   }
 
   override fun onCreate() {
