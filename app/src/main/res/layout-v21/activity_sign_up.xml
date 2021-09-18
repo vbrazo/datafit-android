@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272C35"
+    android:overScrollMode="never"
+    tools:context=".activities.SignUpActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/SignUpActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272C35"
+        tools:context=".activities.SignUpActivity">
+
+        <TextView
+            android:id="@+id/btnSignUp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:text="@string/ja_tem_conta"
+            android:textColor="#BDBFC2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.335"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+
+        <TextView
+            android:id="@+id/btnLoginAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:text="@string/faca_login"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/btnSignUp4"
+            app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="97dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:background="@drawable/button_shape"
+            android:ems="10"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:hint="Seu nome"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:shadowColor="#303641"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80848B"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:background="@drawable/button_shape"
+            android:ems="10"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:hint="Seu e-mail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="16dp"
+            android:shadowColor="#303641"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80848B"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:ems="10"
+            android:hint="Sua senha"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80848B"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_shape_yellow"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:hint="@string/cadastrar"
+            android:text="@string/cadastrar"
+            android:textAllCaps="false"
+            android:textColor="#2A2E34"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPasswordConfirmation" />
+
+        <EditText
+            android:id="@+id/txtPasswordConfirmation"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:autofillHints=""
+            android:background="#303641"
+            android:ems="10"
+            android:hint="Confirmar senha"
+            android:textColorHint="#80848B"
+            android:fontFamily="@font/proxima_nova_regular"
+            android:inputType="textPassword"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:textCursorDrawable="@null"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="56dp"
+            android:background="#303641"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/proxima_nova_bold"
+            android:text="Cadastro via e-mail"
+            android:textColor="#BDBFC2"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chevron_left" />
+
+        <CheckBox
+            android:id="@+id/checkboxTermsAndConditions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:buttonTint="#585D66"
+            android:checked="true"
+            android:text="Eu concordo com os termos de serviço e políticas de privacidade."
+            android:textColor="#BDBFC2"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/txtPasswordConfirmation"
+            app:layout_constraintTop_toBottomOf="@+id/txtPasswordConfirmation" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
